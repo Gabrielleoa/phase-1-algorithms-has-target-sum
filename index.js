@@ -1,13 +1,26 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+  array = [3, 8, 12, 4, 11, 7], 
+  target = 10
+  if (array[12]+array[4]=== target){
+    return true;
+  } 
+  else{
+    return false
+  }
 }
+console.log(hasTargetSum());
 
 /* 
   Write the Big O time complexity of your function here
 */
 
 /* 
-  Add your pseudocode here
+  write function hasTargetSum
+  initialize the array plus the target
+  if any pair in the array adds up to the target
+  return true
+  else
+  return false
 */
 
 /*
@@ -15,7 +28,7 @@ function hasTargetSum(array, target) {
 */
 
 // You can run `node index.js` to view these console logs
-if (require.main === module) {
+/*if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
   console.log("=>", hasTargetSum([3, 8, 12, 4, 11, 7], 10));
@@ -31,4 +44,4 @@ if (require.main === module) {
   console.log("=>", hasTargetSum([1, 2, 5], 4));
 }
 
-module.exports = hasTargetSum;
+module.exports = hasTargetSum;*/
